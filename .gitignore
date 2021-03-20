@@ -1,18 +1,238 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+public class SuperKarelProgram extends SuperKarel
+{
+    public void run()
+    {
+        putPins();
+        bowlStrike();
+        putPins();
+        bowlSpare();
+        getRest();
+        putPins();
+        bowlGutter();
+    }
+    private void putPins()
+    {
+        move();
+        move();
+        move();
+        move();
+        move();
+        putBall();
+        move();
+        turnRight();
+        move();
+        putBall();
+        move();
+        turnLeft();
+        move();
+        putBall();
+        move();
+        turnRight();
+        move();
+        putBall();
+        turnLeft();
+        turnLeft();
+        move();
+        move();
+        putBall();
+        move();
+        move();
+        putBall();
+        move();
+        move();
+        putBall();
+        turnLeft();
+        move();
+        turnLeft();
+        move();
+        putBall();
+        turnRight();
+        move();
+        turnLeft();
+        move();
+        putBall();
+        move();
+        turnLeft();
+        move();
+        putBall();
+        turnLeft();
+        turnLeft();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        turnRight();
+        turnRight();
+    }
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+    private void bowlStrike()
+    {
+        move();
+        move();
+        move();
+        move();
+        move();
+        takeBall();
+        move();
+        turnRight();
+        move();
+        takeBall();
+        move();
+        turnLeft();
+        move();
+        takeBall();
+        move();
+        turnRight();
+        move();
+        takeBall();
+        turnLeft();
+        turnLeft();
+        move();
+        move();
+        takeBall();
+        move();
+        move();
+        takeBall();
+        move();
+        move();
+        takeBall();
+        turnLeft();
+        move();
+        turnLeft();
+        move();
+        takeBall();
+        turnRight();
+        move();
+        turnLeft();
+        move();
+        takeBall();
+        move();
+        turnLeft();
+        move();
+        takeBall();
+        turnLeft();
+        turnLeft();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        turnRight();
+        turnRight();
+    }
+    /*
+    *he does stuff 
+    * and yeh
+    **/
+    private void bowlSpare()
+    {
+        move();
+        move();
+        move();
+        move();
+        move();
+        takeBall();
+        move();
+        turnRight();
+        move();
+        takeBall();
+        move();
+        turnLeft();
+        move();
+        move();
+        turnRight();
+        move();
+        turnLeft();
+        turnLeft();
+        move();
+        move();
+        takeBall();
+        move();
+        move();
+        move();
+        move();
+        takeBall();
+        turnLeft();
+        move();
+        turnLeft();
+        move();
+        takeBall();
+        turnRight();
+        move();
+        turnLeft();
+        move();
+        takeBall();
+        move();
+        turnLeft();
+        move();
+        takeBall();
+        turnLeft();
+        turnLeft();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        turnRight();
+        turnRight();
+    }
+    private void getRest()
+    {
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        turnRight();
+        move();
+        move();
+        takeBall();
+        move();
+        turnLeft();
+        move();
+        takeBall();
+        turnLeft();
+        move();
+        move();
+        move();
+        move();
+        takeBall();
+        turnLeft();
+        while(frontIsClear())
+        {
+            move();
+        }
+        turnLeft();
+        move();
+        turnLeft();
+    }
+    private void bowlGutter()
+    {
+        turnLeft();
+        move();
+        move();
+        move();
+        move();
+        move();
+        turnRight();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        move();
+        
+    }
+}
